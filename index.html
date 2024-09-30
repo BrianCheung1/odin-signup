@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <div class="left-side">
@@ -29,7 +30,7 @@
       </div>
       <div class="form">
         <h2>Let's Do This</h2>
-        <form actions="example.com/path" method="post" id="myform">
+        <form actions="#" method="post" id="myform">
           <div class="form-inputs">
             <div>
               <label for="first_name">First Name:</label>
@@ -75,8 +76,8 @@
         </form>
       </div>
       <div class="account">
-        <button type="submit" form="myform">Create Account</button>
-        <p>Already have an account? Log In</p>
+        <button type="submit" form="myform" id="formButton">Create Account</button>
+        <p>Already have an account? <a href="#">Log In</a></p>
       </div>
     </div>
   </body>
